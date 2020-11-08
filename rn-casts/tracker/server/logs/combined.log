@@ -1,0 +1,202 @@
+2020-11-07 13:34:32 info: incoming request POST request
+2020-11-07 13:34:32 error: user registration failed
+2020-11-07 14:59:41 info: incoming request POST request
+2020-11-07 14:59:41 error: user registration failed
+2020-11-07 14:59:58 info: incoming request POST request
+2020-11-07 14:59:58 error: user registration failed
+2020-11-07 15:00:18 info: incoming request POST request
+2020-11-07 15:00:18 error: E11000 duplicate key error collection: <dbname>.users index: email_1 dup key: { email: "texts@mail.com" }
+2020-11-07 15:00:29 info: incoming request POST request
+2020-11-07 15:00:29 error: E11000 duplicate key error collection: <dbname>.users index: email_1 dup key: { email: "texts@mail.com" }
+2020-11-07 15:00:36 info: incoming request POST request
+2020-11-07 15:00:36 info: success signing up user textdss@mail.com
+2020-11-07 15:00:36 error: Expected "payload" to be a plain object.
+2020-11-07 15:00:56 info: incoming request POST request
+2020-11-07 15:00:56 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "textdss@mail.com" }
+2020-11-07 15:01:00 info: incoming request POST request
+2020-11-07 15:01:00 info: success signing up user textdddddss@mail.com
+2020-11-07 15:01:00 error: Expected "payload" to be a plain object.
+2020-11-07 15:01:03 info: incoming request POST request
+2020-11-07 15:01:03 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "textdddddss@mail.com" }
+2020-11-07 15:01:22 info: incoming request POST request
+2020-11-07 15:01:22 info: success signing up user dd@mail.com
+2020-11-07 15:01:22 error: Expected "payload" to be a plain object.
+2020-11-07 15:03:26 info: incoming request POST request
+2020-11-07 15:03:26 info: success signing up user ddd@mail.com
+2020-11-07 15:03:39 info: incoming request GET request
+2020-11-07 15:04:06 info: incoming request GET request
+2020-11-07 15:23:12 info: incoming request GET request
+2020-11-07 15:23:12 info: req.user.email
+2020-11-07 15:23:14 info: incoming request GET request
+2020-11-07 15:23:14 info: req.user.email
+2020-11-07 15:23:59 info: incoming request GET request
+2020-11-07 15:24:00 info: 5fa6a92ea7eb4880fc20c226
+2020-11-07 15:24:00 info: req.user.email
+2020-11-07 15:25:31 info: incoming request GET request
+2020-11-07 15:25:31 info: 5fa6a92ea7eb4880fc20c226
+2020-11-07 15:25:31 info: req.user.email
+2020-11-07 15:25:33 info: incoming request GET request
+2020-11-07 15:25:33 info: 5fa6a92ea7eb4880fc20c226
+2020-11-07 15:25:33 info: req.user.email
+2020-11-07 15:25:52 info: incoming request GET request
+2020-11-07 15:25:52 info: 5fa6a92ea7eb4880fc20c226
+2020-11-07 15:25:53 info: incoming request GET request
+2020-11-07 15:25:53 info: 5fa6a92ea7eb4880fc20c226
+2020-11-07 16:17:44 info: incoming request POST request
+2020-11-07 16:17:44 info: success signing up user belke
+2020-11-07 16:19:19 info: incoming request POST request
+2020-11-07 16:19:19 info: password was hashed
+2020-11-07 16:19:19 info: success signing up user belkes
+2020-11-07 16:24:24 info: incoming request POST request
+2020-11-07 16:24:24 info: password was hashed
+2020-11-07 16:24:25 info: success signing up user henri
+2020-11-07 16:25:14 info: incoming request POST request
+2020-11-07 16:25:14 error: data and hash arguments required
+2020-11-07 16:27:49 info: incoming request POST request
+2020-11-07 16:27:49 info: success login  user henri
+2020-11-07 16:27:51 info: incoming request POST request
+2020-11-07 16:27:51 info: success login  user henri
+2020-11-07 16:53:34 info: incoming request GET request
+2020-11-07 16:55:04 info: incoming request GET request
+2020-11-07 16:55:04 info: [object Object]
+2020-11-07 16:55:19 info: incoming request GET request
+2020-11-07 16:55:19 info: {"userId":"5fa6a92ea7eb4880fc20c226","iat":1604757806}
+2020-11-07 16:56:36 info: incoming request GET request
+2020-11-07 16:56:36 info: {"userId":"5fa6a92ea7eb4880fc20c226","iat":1604757806}
+2020-11-07 16:56:36 info: null
+2020-11-07 16:57:20 info: incoming request GET request
+2020-11-07 16:57:20 info: {"userId":"5fa6bc2864773e9d1c37f1ac","iat":1604762871}
+2020-11-07 16:57:20 info: {
+  password: '$2b$10$zdpylWGwkVtgfxEs6mKRseplifyrt5bqbGFRadn.WU7vYVpkNM7m.',
+  avatar_url: 'https://res.cloudinary.com/dri8yyakb/image/upload/v1569582674/optimap_icons/user_tmksk6.png',
+  _tracks: [],
+  _friends: [],
+  _id: 5fa6bc2864773e9d1c37f1ac,
+  email: 'henri@mail.net',
+  username: 'henri',
+  created_at: 2020-11-07T15:24:24.829Z,
+  updated_at: 2020-11-07T15:24:24.829Z,
+  __v: 0
+}
+2020-11-07 16:58:14 info: incoming request GET request
+2020-11-07 16:58:14 info: user attached to req
+2020-11-07 16:58:15 info: incoming request GET request
+2020-11-07 16:58:16 info: user attached to req
+2020-11-07 16:58:17 info: incoming request GET request
+2020-11-07 16:58:17 info: user attached to req
+2020-11-07 16:58:27 info: incoming request GET request
+2020-11-07 16:58:27 info: user attached to req
+2020-11-07 16:59:10 info: incoming request GET request
+2020-11-07 16:59:10 info: user attached to req
+2020-11-07 17:10:20 info: incoming request POST request
+2020-11-07 17:10:20 info: user attached to req
+2020-11-07 17:11:25 info: incoming request POST request
+2020-11-07 17:11:25 info: user attached to req
+2020-11-07 17:11:35 info: incoming request POST request
+2020-11-07 17:11:35 info: user attached to req
+2020-11-07 17:11:52 info: incoming request POST request
+2020-11-07 17:12:01 info: incoming request POST request
+2020-11-07 17:12:01 info: user attached to req
+2020-11-07 17:12:09 info: incoming request GET request
+2020-11-07 17:12:09 info: user attached to req
+2020-11-07 17:12:11 info: incoming request GET request
+2020-11-07 17:12:11 info: user attached to req
+2020-11-07 17:12:11 info: incoming request GET request
+2020-11-07 17:12:11 info: user attached to req
+2020-11-07 17:12:15 info: incoming request GET request
+2020-11-07 17:12:15 info: user attached to req
+2020-11-07 17:12:15 info: incoming request GET request
+2020-11-07 17:12:15 info: user attached to req
+2020-11-07 17:12:16 info: incoming request GET request
+2020-11-07 17:12:16 info: user attached to req
+2020-11-07 17:12:16 info: incoming request GET request
+2020-11-07 17:12:16 info: user attached to req
+2020-11-07 17:12:16 info: incoming request GET request
+2020-11-07 17:12:17 info: user attached to req
+2020-11-07 17:12:17 info: incoming request GET request
+2020-11-07 17:12:17 info: user attached to req
+2020-11-07 17:12:17 info: incoming request GET request
+2020-11-07 17:12:17 info: user attached to req
+2020-11-07 17:12:19 info: incoming request GET request
+2020-11-07 17:12:19 info: user attached to req
+2020-11-07 17:12:30 info: incoming request GET request
+2020-11-07 17:12:30 info: user attached to req
+2020-11-07 17:12:35 info: incoming request GET request
+2020-11-07 17:12:35 info: user attached to req
+2020-11-07 17:12:36 info: incoming request GET request
+2020-11-07 17:12:36 info: user attached to req
+2020-11-07 17:12:37 info: incoming request GET request
+2020-11-07 17:12:37 info: user attached to req
+2020-11-07 17:12:41 info: incoming request GET request
+2020-11-07 17:12:41 info: user attached to req
+2020-11-07 17:13:27 info: incoming request POST request
+2020-11-07 17:13:27 info: user attached to req
+2020-11-07 17:13:59 info: incoming request POST request
+2020-11-07 17:13:59 info: user attached to req
+2020-11-07 17:14:01 info: incoming request POST request
+2020-11-07 17:14:01 info: user attached to req
+2020-11-07 17:14:13 info: incoming request POST request
+2020-11-07 17:14:14 info: user attached to req
+2020-11-07 17:14:35 info: incoming request POST request
+2020-11-07 17:14:35 info: user attached to req
+2020-11-07 17:14:38 info: incoming request POST request
+2020-11-07 17:14:39 info: user attached to req
+2020-11-07 17:14:39 info: incoming request POST request
+2020-11-07 17:14:39 info: user attached to req
+2020-11-07 17:14:43 info: incoming request POST request
+2020-11-07 17:14:43 info: user attached to req
+2020-11-07 17:14:48 info: incoming request GET request
+2020-11-07 17:14:48 info: user attached to req
+2020-11-08 09:45:31 info: incoming request GET request
+2020-11-08 09:46:47 info: incoming request GET request
+2020-11-08 09:46:47 info: incoming request GET request
+2020-11-08 09:46:49 info: incoming request GET request
+2020-11-08 09:46:49 info: incoming request GET request
+2020-11-08 09:47:01 info: incoming request GET request
+2020-11-08 09:47:01 info: incoming request GET request
+2020-11-08 10:31:15 info: incoming request POST request
+2020-11-08 10:32:07 info: incoming request POST request
+2020-11-08 10:32:08 info: password was hashed
+2020-11-08 10:32:09 info: success signing up user test
+2020-11-08 10:32:47 info: incoming request POST request
+2020-11-08 10:32:47 info: password was hashed
+2020-11-08 10:32:47 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:33:42 info: incoming request POST request
+2020-11-08 10:33:42 info: password was hashed
+2020-11-08 10:33:42 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:34:53 info: incoming request POST request
+2020-11-08 10:34:53 info: password was hashed
+2020-11-08 10:34:53 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:34:55 info: incoming request POST request
+2020-11-08 10:34:55 info: password was hashed
+2020-11-08 10:34:56 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:34:56 info: incoming request POST request
+2020-11-08 10:34:56 info: password was hashed
+2020-11-08 10:34:57 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:36:10 info: incoming request POST request
+2020-11-08 10:36:10 info: password was hashed
+2020-11-08 10:36:10 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:36:13 info: incoming request POST request
+2020-11-08 10:36:13 info: password was hashed
+2020-11-08 10:36:13 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:36:14 info: incoming request POST request
+2020-11-08 10:36:14 info: password was hashed
+2020-11-08 10:36:14 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:36:25 info: incoming request POST request
+2020-11-08 10:36:25 info: password was hashed
+2020-11-08 10:36:25 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:38:42 info: incoming request POST request
+2020-11-08 10:38:42 info: password was hashed
+2020-11-08 10:38:42 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 10:51:39 info: incoming request POST request
+2020-11-08 10:51:39 info: password was hashed
+2020-11-08 10:51:40 error: E11000 duplicate key error collection: <dbname>.users index: username_1 dup key: { username: "test" }
+2020-11-08 11:01:04 info: incoming request POST request
+2020-11-08 11:01:04 info: password was hashed
+2020-11-08 11:01:04 info: success signing up user tes
+2020-11-08 11:07:09 info: incoming request POST request
+2020-11-08 11:07:09 info: password was hashed
+2020-11-08 11:07:10 info: success signing up user user
+2020-11-08 11:09:57 info: incoming request POST request
+2020-11-08 11:09:57 info: password was hashed
+2020-11-08 11:09:57 info: success signing up user tester
